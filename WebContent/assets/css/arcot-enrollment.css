@@ -1,0 +1,205 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'CASansRegular';
+    src: url('./fonts/ca_sans-regular-webfont.eot');
+    src: url('./fonts/ca_sans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/ca_sans-regular-webfont.woff') format('woff'),
+         url('./fonts/ca_sans-regular-webfont.ttf') format('truetype'),
+         url('./fonts/ca_sans-regular-webfont.svg#CASansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	margin:auto;
+	background-image:url(../images/body-bg.png);
+	background-position:top left;
+	background-color: #f6f8f8;
+	background-repeat:repeat-x;
+}
+
+table{
+	font-family: CASansRegular, verdana, helvetica, sans-serif;
+	font-size:16px;
+}
+
+
+
+#body {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -4em;
+	width:1000px;
+}
+.header {
+	display:inline;
+}
+
+.logo {
+	float:left;
+	background-image:url(../images/ca-logo.png);
+	width:122px;
+	height:123px;
+	background-color:#FFF;
+	margin-top:8px;
+	margin-right:35px;
+}
+
+.hdTitle {
+	font-family: CASansRegular, verdana, helvetica, sans-serif; 
+	font-size:35px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+}
+.infoSection {
+	background:url(../images/info-icon.png) no-repeat 0 0;
+	font-family: CASansRegular, verdana, helvetica, sans-serif;
+	font-size:14px;
+	margin-top:-5px;
+	margin-bottom:30px;
+	margin-left:120px;
+	padding-left:40px;
+	height:50px;
+	padding-top:2px;
+}
+
+.ownques{
+	font-size:12px;
+}
+
+.formspace{
+	background-color:#FFF;
+	border: 6px #dadada solid;
+	width:746px;
+	height:auto;
+	margin:auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+table.AuthTable{
+	padding-left: 10px;	
+}
+
+table.AuthTable tr{
+	height: 40px;	
+}
+
+.pamlabel{
+	display: block;
+	
+  	width: 150px;
+  	min-height: 30px;
+}
+
+.enroll1{
+	background-color:#FFF;
+	border: 6px #dadada solid;
+	width:746px;
+	height:auto;
+	margin:auto;
+}
+
+.enroll1 table{
+	width: 650px;	
+}
+
+.label1 {
+  	display: block;
+  	float: left;
+  	padding: 5px 0 2px;
+  	width: 150px;
+  	min-height: 30px;
+}
+.button1{
+	display: block;
+  	text-align: center;
+  	width: 350px;
+  	min-height: 30px;
+}
+
+.submitbutton{
+	height: 30px; 
+	width: 100px;
+}
+
+.footer {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999;
+	text-align:center;
+	margin-bottom:30px;
+	width:100%;
+}
+
+.footer, .push {
+	margin-top: 15px;
+	height: 4em;
+	clear: both;
+}
+
+.CookieSpace{
+	background-color: #FAF8CC; 
+	font-family: CASansRegular, verdana, helvetica, sans-serif;
+	border: 6px black solid;
+	font-size: 14px;
+	width:746px;
+	height:auto;
+	margin:auto;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.enrollsuccess{
+	color: black;
+	font-size: large;
+	font-stretch: semi-expanded;	
+}
+
+.migrationmessage{
+	color: black;
+	font-size: large;
+	font-stretch: semi-expanded;
+}
+#txt_header{
+	font-weight: bold;
+}
+#txt_subheader{
+	font-weight: bold;
+}
+#txt_msg1{
+	font-stretch: semi-condensed;
+	font-weight: lighter;	
+}
+
+
+
+
+ul.thumbs {
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+ul.thumbs li {
+	float: left;
+	padding: 0;
+	margin: 5px 10px 5px 0;
+	list-style: none;
+}
+a.thumb {
+	padding: 2px;
+	display: block;
+	border: 1px solid #ccc;
+}
+ul.thumbs li.selected a.thumb {
+	background: #000;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	border: none;
+	display: block;
+}
